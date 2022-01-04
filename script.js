@@ -21,8 +21,11 @@ var score = 12;
 console.log(score);
 
 var fullName = "John" + "Smith";
-console.log(fullName);
+console.log(typeof fullName);
 //console.log(delivered);
+
+var nameType = typeof fullName;
+console.log(nameType);
 
 // class activities
 var pet = "cat";

@@ -12,7 +12,35 @@ alert("Nsebo");
 
 //task 2
 var animal = "frog";
+console.log(animal);
+
 var delivered = true;
+console.log(delivered);
+
 var score = 12;
-var fullName = Nsebo;
+console.log(score);
+
+var fullName = "John" + "Smith";
+console.log(fullName);
 //console.log(delivered);
+
+// class activities
+var pet = "cat";
+console.log(pet);
+
+var animal = "rab" + "bit";
+console.log(animal);
+
+var four = "4";
+console.log(four);
+
+var myFirstNumber = 4;
+var mySecondNumber = 4;
+var result = myFirstNumber + mySecondNumber;
+console.log(result);
+
+var lightIsOn = false;
+console.log(lightIsOn);
+
+var nseboIsGirl = 23;
+console.log(nseboIsGirl);

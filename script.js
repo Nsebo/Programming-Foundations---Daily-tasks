@@ -21,8 +21,7 @@ var score = 12;
 console.log(score);
 
 var fullName = "John" + "Smith";
-console.log(typeof fullName);
-//console.log(delivered);
+console.log(fullName);
 
 var nameType = typeof fullName;
 console.log(nameType);

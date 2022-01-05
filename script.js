@@ -85,7 +85,7 @@ var myAge = 32;
 if (myAge > 34) {
   console.log("i am young");
 } else if (myAge === 32) {
-  console.log("I am stil very young");
+  console.log("I am still very young");
 }
 
 var color = "red";
@@ -98,4 +98,23 @@ switch (color) {
     break;
   default:
     console.log("The color is not blue, red, green...");
+}
+
+// task 3
+var age = 10;
+
+if (age >= 7) {
+  console.log("Greater than or equal to 7");
+} else {
+  console.log("less than 7");
+}
+
+var animal = "dog";
+
+if (animal === "parrot") {
+  console.log("The animal has two legs");
+} else if (animal === "cat") {
+  console.log("The animal has four legs");
+} else if (animal != "parrot" || "cat") {
+  console.log("The animal has an unknown amount of legs");
 }

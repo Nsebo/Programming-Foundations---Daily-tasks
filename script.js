@@ -118,3 +118,72 @@ if (animal === "parrot") {
 } else if (animal != "parrot" || "cat") {
   console.log("The animal has an unknown amount of legs");
 }
+
+//class activities day 4 loop
+
+// count++ is the same as count = count + 1
+// 1 >> 2
+// 1 >> 2
+// 1 >> 2
+for (var count = 1; count <= 20; count++) {
+  console.log(count);
+}
+// for (var i = 0; count <= 25; i++) {
+// console.log(i);
+// }
+
+for (var i = 5; i < 26; i++) {
+  console.log(i);
+}
+
+//array
+var cars = [
+  "BMW", // 0
+  "MG", // 1
+  "Honda", // 2
+  "",
+  21,
+];
+// console.log(cars[0]);
+// console.log(cars[1]);
+// console.log(cars[2]);
+
+var numberOfCars = cars.length;
+console.log(numberOfCars);
+
+// var numberOfColors = ["red", "blue", "green", "yellow"];
+
+// var profile = [{ name: "uzo" }, { surname: "oloh" }, { work: /// "student" }];
+
+// log arrays not pratically
+
+var colors = ["red", "blue", "green", "yellow"];
+
+var numberOfColors = colors.length;
+
+for (var i = 0; i < numberOfColors; i++) {
+  console.log(colors[i]);
+}
+
+// console.log(colors[0]);
+// console.log(colors[1]);
+// console.log(colors[2]);
+// console.log(colors[3]);
+
+// var counter = 100;
+
+// while (counter >= 10) {
+// console.log("subtracting:, counter");
+//}
+
+// var myCard = 1624;
+
+// if (myCard == 1001) {
+// console.log("this is a theft not my pin");
+// } else {
+// console.log("leave me");
+// }
+
+// var animal1 = "monkey";
+// var animal2 = "bear";
+// var animal3 = "tiger";

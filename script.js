@@ -243,3 +243,11 @@ var mobileShop = [
     color: "red",
   },
 ];
+
+// looping through an array of objects
+
+for (var i = 0; i < mobileShop.length; i++) {
+  var mobileName = mobileShop[i].name;
+  console.log(mobileShop[i].name);
+  console.log(mobileShop[i].color);
+}

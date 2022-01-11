@@ -4,75 +4,75 @@
 // console.log(7 + 8);
 
 // current day of the week
-console.log("Monday");
+// console.log("Monday");
 // Console log 3 multiplied by 6
-console.log(3 * 6);
+// console.log(3 * 6);
 //Using the alert() method, alert your name
-alert("Nsebo");
+// alert("Nsebo");
 
 //task 2
-var animal = "frog";
-console.log(animal);
+// var animal = "frog";
+// console.log(animal);
 
-var delivered = true;
-console.log(delivered);
+// var delivered = true;
+// console.log(delivered);
 
-var score = 12;
-console.log(score);
+// var score = 12;
+// console.log(score);
 
-var fullName = "John" + "Smith";
-console.log(fullName);
+// var fullName = "John" + "Smith";
+// console.log(fullName);
 
-var nameType = typeof fullName;
-console.log(nameType);
+// var nameType = typeof fullName;
+// console.log(nameType);
 
 // class activities
-var pet = "cat";
-console.log(pet);
+// var pet = "cat";
+// console.log(pet);
 
-var animal = "rab" + "bit";
-console.log(animal);
+// var animal = "rab" + "bit";
+// console.log(animal);
 
-var four = "4";
-console.log(four);
+// var four = "4";
+// console.log(four);
 
-var myFirstNumber = 4;
-var mySecondNumber = 4;
-var result = myFirstNumber + mySecondNumber;
-console.log(result);
+// var myFirstNumber = 4;
+// var mySecondNumber = 4;
+// var result = myFirstNumber + mySecondNumber;
+// console.log(result);
 
-var lightIsOn = false;
-console.log(lightIsOn);
+// var lightIsOn = false;
+// console.log(lightIsOn);
 
-var nseboIsGirl = 23;
-console.log(nseboIsGirl);
+// var nseboIsGirl = 23;
+// console.log(nseboIsGirl);
 
 //class activities day 3
-var firstNo = 10;
-var secondNo = "10";
-console.log(firstNo === secondNo); //false
+// var firstNo = 10;
+// var secondNo = "10";
+// console.log(firstNo === secondNo); //false
 
-var myNumber = 7;
-var myString = "dog";
+// var myNumber = 7;
+// var myString = "dog";
 
-console.log(myNumber > 8);
-console.log(myNumber <= 8);
-console.log(myNumber === "dog");
-console.log(myNumber !== "cat");
+// console.log(myNumber > 8);
+// console.log(myNumber <= 8);
+// console.log(myNumber === "dog");
+// console.log(myNumber !== "cat");
 // declare a logged in variable
 // check if the user is logged in
 // if the user is logged in i will show a nice message in the console
 // else if the user is not logged in i will show a message too
 
-var isLoggedIn = true;
+// var isLoggedIn = true;
 
-if (isLoggedIn === true) {
-  console.log("The user is logged in");
-} else {
-  console.log("The user is not logged in");
-}
+// if (isLoggedIn === true) {
+// console.log("The user is logged in");
+// } else {
+//  console.log("The user is not logged in");
+// }
 
-var inputIsValid = false;
+// var inputIsValid = false;
 
 // if (inputIsVaild === false); {
 // console.log ("please fill in the email field");
@@ -80,44 +80,44 @@ var inputIsValid = false;
 //console.log();
 // }
 
-var myAge = 32;
+// var myAge = 32;
 
-if (myAge > 34) {
-  console.log("i am young");
-} else if (myAge === 32) {
-  console.log("I am still very young");
-}
+// if (myAge > 34) {
+// console.log("i am young");
+// } else if (myAge === 32) {
+// console.log("I am still very young");
+// }
 
-var color = "red";
-switch (color) {
-  case "red":
-    console.log("The chosen color is red");
-    break;
-  case "blue":
-    console.log("The chosen color is blue");
-    break;
-  default:
-    console.log("The color is not blue, red, green...");
-}
+// var color = "red";
+// switch (color) {
+// case "red":
+//  console.log("The chosen color is red");
+// break;
+// case "blue":
+// console.log("The chosen color is blue");
+// break;
+// default:
+// console.log("The color is not blue, red, green...");
+// }
 
 // task 3
-var age = 10;
+// var age = 10;
 
-if (age >= 7) {
-  console.log("Greater than or equal to 7");
-} else {
-  console.log("less than 7");
-}
+// if (age >= 7) {
+// console.log("Greater than or equal to 7");
+// } else {
+//console.log("less than 7");
+// }
 
-var animal = "dog";
+// var animal = "dog";
 
-if (animal === "parrot") {
-  console.log("The animal has two legs");
-} else if (animal === "cat") {
-  console.log("The animal has four legs");
-} else if (animal != "parrot" || "cat") {
-  console.log("The animal has an unknown amount of legs");
-}
+// if (animal === "parrot") {
+// console.log("The animal has two legs");
+// } else if (animal === "cat") {
+//  console.log("The animal has four legs");
+// } else if (animal != "parrot" || "cat") {
+// console.log("The animal has an unknown amount of legs");
+// }
 
 //class activities day 4 loop
 
@@ -125,31 +125,31 @@ if (animal === "parrot") {
 // 1 >> 2
 // 1 >> 2
 // 1 >> 2
-for (var count = 1; count <= 20; count++) {
-  console.log(count);
-}
+// for (var count = 1; count <= 20; count++) {
+// console.log(count);
+// }
 // for (var i = 0; count <= 25; i++) {
 // console.log(i);
 // }
 
-for (var i = 5; i < 26; i++) {
-  console.log(i);
-}
+// for (var i = 5; i < 26; i++) {
+// console.log(i);
+// }
 
 //array
-var cars = [
-  "BMW", // 0
-  "MG", // 1
-  "Honda", // 2
-  "",
-  21,
-];
+// var cars = [
+//  "BMW", // 0
+// "MG", // 1
+//   "Honda", // 2
+// "",
+//  21,
+// ];
 // console.log(cars[0]);
 // console.log(cars[1]);
 // console.log(cars[2]);
 
-var numberOfCars = cars.length;
-console.log(numberOfCars);
+// var numberOfCars = cars.length;
+// console.log(numberOfCars);
 
 // var numberOfColors = ["red", "blue", "green", "yellow"];
 
@@ -157,13 +157,13 @@ console.log(numberOfCars);
 
 // log arrays not pratically
 
-var colors = ["red", "blue", "green", "yellow"];
+// var colors = ["red", "blue", "green", "yellow"];
 
-var numberOfColors = colors.length;
+// var numberOfColors = colors.length;
 
-for (var i = 0; i < numberOfColors; i++) {
-  console.log(colors[i]);
-}
+// for (var i = 0; i < numberOfColors; i++) {
+//  console.log(colors[i]);
+// }
 
 // console.log(colors[0]);
 // console.log(colors[1]);
@@ -187,3 +187,59 @@ for (var i = 0; i < numberOfColors; i++) {
 // var animal1 = "monkey";
 // var animal2 = "bear";
 // var animal3 = "tiger";
+
+// arrays
+
+// var color = ["yellow", "blue", "white"];
+
+// var numberOfColor = color.length;
+// console.log("numberOfColor: ,numberOfColor");
+
+// manipulating Arrays
+
+// console.log(color.push("black"));
+// color.pop();
+//color.unshift("pink");
+// color.shift();
+
+// console.log(color);
+
+//  arrays of objects
+var planets = [
+  "earth", //0
+  "mars", // 1
+  ["uzo", "oloh", "nsebo"], // 2
+  ["bmw", "polo", "mg"], // 3
+];
+
+console.log(planets[0]);
+console.log(planets[2][0]);
+console.log(planets[2][2]);
+
+// objects
+var mobile = {
+  name: "iphone",
+  color: "black",
+  ram: 20,
+  storage: 500,
+};
+
+console.log(mobile.name);
+console.log(mobile.storage);
+console.log(mobile.ram);
+
+console.log(mobile);
+
+console.warn(mobile.storage);
+console.info(mobile.storage);
+
+var mobileShop = [
+  {
+    name: "iphone x5",
+    color: "black",
+  },
+  {
+    name: "nokia 3320",
+    color: "red",
+  },
+];

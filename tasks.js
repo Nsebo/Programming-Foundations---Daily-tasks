@@ -49,23 +49,19 @@
 
 // 4
 // Write a for loop that logs a number from 1 to 5
-for (var count = 1; count <= 5; count++) {
-  console.log(count);
-}
+// for (var count = 1; count <= 5; count++) {
+//   console.log(count);
+// }
 
-//Write a for loop that logs a number from 7 to 16
-for (var count = 7; count <= 16; count++) {
-  console.log(count);
-}
-// Given this array var animals = [“dog”, “cat”, “frog”]; use a for loop to console log each animal in the array.
+// //Write a for loop that logs a number from 7 to 16
+// for (var count = 7; count <= 16; count++) {
+//   console.log(count);
+// }
+// // Given this array var animals = [“dog”, “cat”, “frog”]; use a for loop to console log each animal in the array.
 
-var animals = ["dog", "cat", "frog"];
-var numberOfAnimals = animals.length;
+// var animals = ["dog", "cat", "frog"];
+// var numberOfAnimals = animals.length;
 
-for (var i = 0; i <= animals.length; i++) {
-  console.log(animals[i]);
-}
-
-//Lesson Task 2
-
-//
+// for (var i = 0; i <= animals.length; i++) {
+//   console.log(animals[i]);
+// }

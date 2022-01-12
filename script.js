@@ -158,49 +158,120 @@
 // console.log(color);
 
 //  arrays of objects
-var planets = [
-  "earth", //0
-  "mars", // 1
-  ["uzo", "oloh", "nsebo"], // 2
-  ["bmw", "polo", "mg"], // 3
-];
+// var planets = [
+//   "earth", //0
+//   "mars", // 1
+//   ["uzo", "oloh", "nsebo"], // 2
+//   ["bmw", "polo", "mg"], // 3
+// ];
 
-console.log(planets[0]);
-console.log(planets[2][0]);
-console.log(planets[2][2]);
+// console.log(planets[0]);
+// console.log(planets[2][0]);
+// console.log(planets[2][2]);
 
-// objects
-var mobile = {
-  name: "iphone",
-  color: "black",
-  ram: 20,
-  storage: 500,
-};
+// // objects
+// var mobile = {
+//   name: "iphone",
+//   color: "black",
+//   ram: 20,
+//   storage: 500,
+// };
 
-console.log(mobile.name);
-console.log(mobile.storage);
-console.log(mobile.ram);
+// console.log(mobile.name);
+// console.log(mobile.storage);
+// console.log(mobile.ram);
 
-console.log(mobile);
+// console.log(mobile);
 
-console.warn(mobile.storage);
-console.info(mobile.storage);
+// console.warn(mobile.storage);
+// console.info(mobile.storage);
 
-var mobileShop = [
-  {
-    name: "iphone x5",
-    color: "black",
-  },
-  {
-    name: "nokia 3320",
-    color: "red",
-  },
-];
+// var mobileShop = [
+//   {
+//     name: "iphone x5",
+//     color: "black",
+//   },
+//   {
+//     name: "nokia 3320",
+//     color: "red",
+//   },
+// ];
 
-// looping through an array of objects
+// // looping through an array of objects
 
-for (var i = 0; i < mobileShop.length; i++) {
-  var mobileName = mobileShop[i].name;
-  console.log(mobileShop[i].name);
-  console.log(mobileShop[i].color);
+// for (var i = 0; i < mobileShop.length; i++) {
+//   var mobileName = mobileShop[i].name;
+//   console.log(mobileShop[i].name);
+//   console.log(mobileShop[i].color);
+// }
+
+// functions : to avoid repeating yourself, use functions
+
+function logWord() {
+  console.log("Nsebonkili");
 }
+
+logWord();
+
+var name = "Nsebo";
+
+console.log(name);
+
+logWord();
+logWord();
+logWord();
+logWord();
+
+function logTwoWords(name, age) {
+  console.log("My Name is:" + name + " and My age is:" + age);
+}
+
+logTwoWords("Nsebo", 32);
+
+// sum and multi
+function sum(num1, num2) {
+  console.log(num1 + num2);
+}
+sum(100, 60);
+
+function multi(num1, num2) {
+  console.log(num1 * num2);
+}
+multi(20, 39);
+
+function printLikeCounter(likeCounter) {
+  console.log(likeCounter + "likes");
+}
+
+printLikeCounter(100);
+printLikeCounter(1000);
+
+function getNumberOfLikes(numberOfLikes) {
+  return numberOfLikes + "likes";
+}
+
+var totalNumberOfLikes = getNumberOfLikes(89);
+
+console.log(totalNumberOfLikes);
+
+// Please write a function which takes two numbers
+// then take the sum of these two numbers and console log them
+// please name this function getSum
+
+function getSum(num1, num2) {
+  console.log(num1 + num2);
+}
+
+getSum(10, 10);
+
+function getMultiply(num1, num2) {
+  console.log(num1 * num2);
+}
+
+getMultiply(10, 10);
+
+function getName(FirstName, secondName) {
+  console.log(FirstName + " " + secondName);
+}
+
+getName("Uzo", "Oloh");
